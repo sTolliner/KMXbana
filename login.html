@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
+		<title>Login</title>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+        <link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+            <img id="header" src="bilder/header-kmx.jpg" alt="header">
+			<h2>Välkommen till Karlstad MX & Enduro</h2>
+            <h3>Logga in på sidan för att se mer</h3>
+            <div class="center-center">
+			<form action="authenticate.php" autocomplete="off" method="post">
+				<label for="username" class="labletxt">
+					<i class="fas fa-user"></i> Licens id
+				</label>
+                <br>
+				<input type="number" name="username" placeholder="Licens id" id="username" required class="inputbox">
+                <br>
+				<label for="password" class="labletxt">
+					<i class="fas fa-lock"></i> Lösenord
+				</label>
+                <br>
+				<input type="password" name="password" placeholder="Lösenord" id="password" required class="inputbox">
+                <br>
+				<a href="forgottpassword.html" class="atxt">Glömt lösenord?</a>
+				<br>
+				<input type="submit" value="Logga in" class="subbtn">
+			</form>
+         </div>
+		</div>
+	</body>
+</html>
