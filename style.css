@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html, body{
+    height: 100%;
+    min-height: 100%;
+}
+.container{
+    height: 100%;
+    min-height: 100%;
+    background: url("../bilder/bakgrundmain1.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.containermain{
+    height: 100%;
+    background: url("../bilder/bakgrundlogin1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.containercheckinform{
+    height: 100%;
+    background: url("../bilder/bakgrundlogin1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.containercheckinout{
+    height: 100%;
+    background: url("../bilder/bakgrundcheck1.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#header{
+    width: 100%;
+    max-height: 150px;
+}
+h2{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+h3{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.containercheckinout h1{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.containermain h1{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.container h2{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.container h3{
+    margin-top: 10px;
+    text-align: center;
+    color: white;
+}
+.inputbox {
+    height: 35px;
+    width: 250px;
+    border-radius: 7.5px;
+    border-color: transparent;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.labletxt{
+    font-size: 20px;
+    color: white;
+}
+.atxt{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.center-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 20px;
+}
+    
+.subbtn{
+    margin-left: 5vh;
+    margin-top: 20px;
+    height: 80px;
+    width: 150px;
+    font-size: 25px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+}
+.flexbtn{
+    display: inline-block;
+    align-items: center;
+    height: 125px;
+    width: 125px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+}
+#picbtn{
+    font-size: 60px;
+    margin-left: 35px;
+    
+}
+.btnotxt{
+    text-align: center;
+    padding-bottom: 15px;
+}
+.checkbtn{
+    text-align: center;
+    text-decoration: none;
+    padding: 30px 2px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+}
+.checkinoutbtn{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px 2px;
+    font-size: 30px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 40px;
+    
+}
+.topdiv {
+    width: 300px;
+}
+.bottomdiv {
+    width: 300px;
+    margin-top: 55px;
+}
+.middiv {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.startbtn{
+    float: left;
+    height: 35px;
+    width: 45px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 4vh;
+    cursor: pointer;
+}
+.infobox{
+    width: 100%;
+    height: auto;
+    border: 2px solid white;
+    color: white;
+    background-color: 0 0 0 0.5;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
