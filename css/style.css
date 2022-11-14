@@ -6,43 +6,39 @@
 html, body{
     height: 100%;
     min-height: 100%;
+    background: url("../bilder/bakgrundmain1.png") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .container{
     height: 100%;
     min-height: 100%;
-    background: url("../bilder/bakgrundmain1.png");
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: cover;
-    background-attachment: fixed;
 }
 .containermain{
     height: 100%;
-    background: url("../bilder/bakgrundlogin1.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
 }
 .containercheckinform{
     height: 100%;
-    background: url("../bilder/bakgrundlogin1.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    background-attachment: fixed;
+}
+.incheckade{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 70%;
+    box-shadow: inset ;
 }
 .containercheckinout{
     height: 100%;
-    background: url("../bilder/bakgrundcheck1.png");
-    background-repeat: no-repeat;
-    background-position: center top;
+    background: url("../bilder/bakgrundcheck1.png") repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
 }
 #header{
     width: 100%;
-    max-height: 150px;
 }
 h2{
     margin-top: 10px;
@@ -184,12 +180,12 @@ h3{
     cursor: pointer;
 }
 .infobox{
-    width: 100%;
+    width: 80%;
     height: auto;
     border: 2px solid white;
     color: white;
-    background-color: 0 0 0 0.5;
-    margin-bottom: 5px;
-    margin-top: 5px;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 5px auto;
 }
 
